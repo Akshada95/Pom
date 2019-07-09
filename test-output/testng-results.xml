@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36097" started-at="2019-07-08T07:39:25Z" finished-at="2019-07-08T07:40:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36097" started-at="2019-07-08T07:39:25Z" finished-at="2019-07-08T07:40:02Z">
+      <class name="mt.mstr.modules.Launch">
+        <test-method status="PASS" signature="executeLaunch(java.lang.String, java.lang.String, int)[pri:0, instance:mt.mstr.modules.Launch@20e2cbe0]" name="executeLaunch" duration-ms="17792" started-at="2019-07-08T13:09:26Z" finished-at="2019-07-08T13:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLaunch -->
+      </class> <!-- mt.mstr.modules.Launch -->
+      <class name="mt.mstr.modules.Login">
+        <test-method status="PASS" signature="executeLoginwithValidds(java.lang.String, java.lang.String)[pri:0, instance:mt.mstr.modules.Login@675d3402]" name="executeLoginwithValidds" duration-ms="18107" started-at="2019-07-08T13:09:43Z" finished-at="2019-07-08T13:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLoginwithValidds -->
+      </class> <!-- mt.mstr.modules.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
